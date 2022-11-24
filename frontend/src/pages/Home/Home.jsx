@@ -1,9 +1,9 @@
-import PlanetCard from "@components/PlanetCard";
+import Departure from "@components/departure";
 
 export default function Home() {
   return (
     <div>
-      <PlanetCard />
+      <Departure />
     </div>
   );
 }
