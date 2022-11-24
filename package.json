@@ -18,5 +18,10 @@
   "devDependencies": {
     "concurrently": "^7.0.0",
     "husky": "^7.0.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.4.3",
+    "react-canva": "^0.0.5"
   }
+
 }
