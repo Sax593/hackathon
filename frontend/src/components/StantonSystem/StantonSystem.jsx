@@ -40,8 +40,8 @@ export default function Map() {
           radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="grey"
-          fill="grey"
+          stroke="blue"
+          fill="blue"
           onClick={openModal}
         />
         <Arc
@@ -50,28 +50,8 @@ export default function Map() {
           radius={15}
           startAngle={0}
           endAngle={180}
-          stroke="orange"
-          fill="orange"
-          onClick={openModal}
-        />
-        <Arc
-          x={690}
-          y={300}
-          radius={15}
-          startAngle={0}
-          endAngle={180}
-          stroke="blue"
-          fill="blue"
-          onClick={openModal}
-        />
-        <Arc
-          x={705}
-          y={200}
-          radius={17}
-          startAngle={0}
-          endAngle={180}
-          stroke="red"
-          fill="red"
+          stroke="Yellow"
+          fill="Yellow"
           onClick={openModal}
         />
         <Arc
@@ -80,47 +60,9 @@ export default function Map() {
           radius={28}
           startAngle={0}
           endAngle={180}
-          stroke="#dfb740"
-          fill="#dfb740"
+          stroke="#73b0ee"
+          fill="#73b0ee"
           onClick={openModal}
-        />
-        <Arc
-          x={780}
-          y={95}
-          radius={25}
-          startAngle={0}
-          endAngle={180}
-          stroke="#d4b457"
-          fill="#d4b457"
-          onClick={openModal}
-        />
-        <Arc
-          x={780}
-          y={95}
-          radius={30}
-          startAngle={0}
-          endAngle={180}
-          stroke="#babec2"
-          fill="transparent"
-        />
-        <Arc
-          x={90}
-          y={395}
-          radius={22}
-          startAngle={0}
-          endAngle={180}
-          stroke="#23edd5"
-          fill="#23edd5"
-          onClick={openModal}
-        />
-        <Arc
-          x={90}
-          y={395}
-          radius={30}
-          startAngle={0}
-          endAngle={180}
-          stroke="#babec2"
-          fill="transparent"
         />
         <Arc
           x={975}
@@ -128,8 +70,8 @@ export default function Map() {
           radius={22}
           startAngle={0}
           endAngle={180}
-          stroke="#0066cc"
-          fill="#0066cc"
+          stroke="#fefefe"
+          fill="#fefefe"
           onClick={openModal}
         />
         <Arc
@@ -163,63 +105,7 @@ export default function Map() {
         <Arc
           x={500}
           y={300}
-          radius={190}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={230}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
           radius={270}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={350}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={420}
           startAngle={0}
           endAngle={180}
           stroke="white"
