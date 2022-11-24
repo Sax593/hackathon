@@ -1,9 +1,9 @@
-import Header from "@components/Header/Header";
+import PlanetCard from "@components/PlanetCard";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <PlanetCard />
     </div>
   );
 }
