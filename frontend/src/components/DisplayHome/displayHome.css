@@ -1,0 +1,99 @@
+.logo{
+    height: 40vh;
+    aspect-ratio: 1;
+}
+
+.center{
+    position: absolute;
+    height: 60vh;
+    top: calc(var(--heightPage) - 95%);
+    right: 20%;
+    text-align: center;
+
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.logoTitle, .catchphrase{
+    font-family: 'Orbitron', sans-serif;
+    color: #C2D2F2;
+    margin: 1.5em;
+
+}
+
+.logoTitle{
+    font-size: 3em;
+}
+
+.catchphrase{
+    font-size: 2.5em;
+}
+
+.logoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+  
+.logoTitle {
+    color: #C2D2F2;
+    display: inline-block;
+
+  }
+  
+.logoTitle > * {
+    animation: turn 5s ease-in;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    color: #C2D2F2;
+    font-weight: normal;
+    letter-spacing: 3vw;
+    text-shadow: 0 0 .5rem #def;
+    transform: scaleY(4);
+  }
+  
+@keyframes turn {
+    0% {
+      text-shadow: 0 0 0 #def;
+      transform: scaleY(4) rotateY(90deg);
+    }
+    100% {
+      text-shadow: 0 0 .5rem #def;
+      transform: scaleY(4) rotateY(0);
+    }
+  }
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 5s ease-in-out both;
+	        animation: focus-in-expand 5s ease-in-out both;
+}
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+@keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
