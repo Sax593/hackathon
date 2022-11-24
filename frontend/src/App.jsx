@@ -3,6 +3,7 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "@pages/Home/Home";
+import SpaceWeather from "@pages/SpaceWeather/SpaceWeather";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
             <Route path="/" element={<Home />} />
             {/* <Route path="/news" element={a} />
             <Route path="/starMap" element={a} />
-            <Route path="/bookAFlight" element={a} />
-            <Route path="/spaceWeather" element={a} /> */}
+            <Route path="/bookAFlight" element={a} /> */}
+            <Route path="/spaceWeather" element={<SpaceWeather />} />
           </Routes>
         </div>
       </Router>
