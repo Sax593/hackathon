@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
