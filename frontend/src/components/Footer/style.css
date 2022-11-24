@@ -1,11 +1,13 @@
-.footer {
+footer {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  color: antiquewhite;
   justify-content: center;
-}
-
-p {
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  height: 8vh;
+  background-color: #04070d;
+  font-family: "Orbitron", sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
