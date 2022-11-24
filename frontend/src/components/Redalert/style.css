@@ -1,0 +1,34 @@
+.alert p {
+  font-size: 3rem;
+  color: red;
+  font-family: "Orbitron", sans-serif;
+}
+
+.alert {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
+  background-color: #111111;
+  border-radius: 1rem;
+  opacity: 80%;
+}
+.alert p {
+  white-space: nowrap;
+  opacity: 0.85;
+  animation-name: alerting;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes alerting {
+  0% {
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-188vw, 0);
+  }
+}
