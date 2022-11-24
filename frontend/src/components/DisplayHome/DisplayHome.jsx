@@ -6,7 +6,7 @@ export default function DisplayHome() {
       <div className="background" alt="SpaceVerse" />
       <figure className="center">
         <img
-          className="logo"
+          className="logoHome"
           src="../../src/assets/logo.png"
           alt="logoSpaceVerse"
         />
