@@ -7,22 +7,14 @@ import "./style.css";
 export default function Map() {
   const [modalIsOpen, setIsOpen] = useState(false);
 
-  function openModal() {
+  const openModal = () => {
     setIsOpen(true);
-  }
+  };
 
-  function closeModal() {
+  const closeModal = () => {
     setIsOpen(false);
-  }
-  const handleSun = <PlanetCard />;
-  const handleMercury = <PlanetCard />;
-  const handleVenus = <PlanetCard />;
-  const handleEarth = <PlanetCard />;
-  const handleMars = <PlanetCard />;
-  const handleJupiter = <PlanetCard />;
-  const handleSaturn = <PlanetCard />;
-  const handleUranus = <PlanetCard />;
-  const handleNeptune = <PlanetCard />;
+  };
+
   return (
     <>
       <button type="button" onClick={openModal}>
@@ -43,7 +35,7 @@ export default function Map() {
           endAngle={180}
           stroke="yellow"
           fill="yellow"
-          onClick={handleSun}
+          onClick={openModal}
         />
         <Arc
           x={400}
@@ -53,7 +45,7 @@ export default function Map() {
           endAngle={180}
           stroke="grey"
           fill="grey"
-          onClick={handleMercury}
+          onClick={openModal}
         />
         <Arc
           x={500}
@@ -63,7 +55,7 @@ export default function Map() {
           endAngle={180}
           stroke="orange"
           fill="orange"
-          onClick={handleVenus}
+          onClick={openModal}
         />
         <Arc
           x={690}
@@ -73,7 +65,7 @@ export default function Map() {
           endAngle={180}
           stroke="blue"
           fill="blue"
-          onClick={handleEarth}
+          onClick={openModal}
         />
         <Arc
           x={705}
@@ -83,7 +75,7 @@ export default function Map() {
           endAngle={180}
           stroke="red"
           fill="red"
-          onClick={handleMars}
+          onClick={openModal}
         />
         <Arc
           x={400}
@@ -93,7 +85,7 @@ export default function Map() {
           endAngle={180}
           stroke="#dfb740"
           fill="#dfb740"
-          onClick={handleJupiter}
+          onClick={openModal}
         />
         <Arc
           x={780}
@@ -103,7 +95,7 @@ export default function Map() {
           endAngle={180}
           stroke="#d4b457"
           fill="#d4b457"
-          onClick={handleSaturn}
+          onClick={openModal}
         />
         <Arc
           x={780}
@@ -122,7 +114,7 @@ export default function Map() {
           endAngle={180}
           stroke="#23edd5"
           fill="#23edd5"
-          onClick={handleUranus}
+          onClick={openModal}
         />
         <Arc
           x={90}
@@ -141,7 +133,7 @@ export default function Map() {
           endAngle={180}
           stroke="#0066cc"
           fill="#0066cc"
-          onClick={handleNeptune}
+          onClick={openModal}
         />
         <Arc
           x={500}
