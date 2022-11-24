@@ -1,0 +1,241 @@
+:root {
+  font-family: "Orbitron", sans-serif;
+  background-image: url(../../assets/galaxy.jpg);
+  background-size: cover;
+}
+
+.SelectDestination,
+.SelectDates,
+.SelectMeans {
+  display: flex;
+  justify-content: center;
+}
+
+.TitleDestination,
+.TitleDates,
+.TitleMeans {
+  width: 800px;
+  height: 55px;
+  /* background-color: #04070d; */
+  color: #c2d2f2;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 3px solid #ff0000;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 45%,
+    rgba(42, 60, 109, 1) 95%
+  );
+}
+
+figure {
+  display: inline-block;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+figcaption {
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  height: 2.5rem;
+  font-weight: bold;
+}
+
+figure:hover figcaption {
+  color: #ff0000;
+  background-color: #04070d;
+  border-radius: 10px;
+  border: 0.1px solid #c2d2f2;
+}
+
+label[for="1"] {
+  content: url("../../assets/coruscant.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="2"] {
+  content: url("../../assets/cybertron.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="3"] {
+  content: url("../../assets/deadstar.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="4"] {
+  content: url("../../assets/gargantua.jpg");
+  height: 10rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+label[for="5"] {
+  content: url("../../assets/krypton.png");
+  height: 10rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+label[for="6"] {
+  content: url("../../assets/mars.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="7"] {
+  content: url("../../assets/orion.png");
+  height: 10rem;
+  cursor: pointer;
+}
+
+label[for="space1"] {
+  content: url("../../assets/space-1.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="space2"] {
+  content: url("../../assets/space-2.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="space3"] {
+  content: url("../../assets/space-3.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="space4"] {
+  content: url("../../assets/space-4.png");
+  height: 10rem;
+  cursor: pointer;
+}
+label[for="space5"] {
+  content: url("../../assets/space-5.png");
+  height: 10rem;
+  cursor: pointer;
+}
+
+.price-button {
+  cursor: pointer;
+  height: 4rem;
+  width: 40vw;
+  font-size: 2.5rem;
+  color: #c2d2f2;
+  border-radius: 10px;
+  border: 3px solid #c2d2f2;
+  background: rgb(255, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 0, 0, 1) 36%,
+    rgba(4, 7, 13, 1) 100%
+  );
+}
+.ViewPrice {
+  display: flex;
+  justify-content: center;
+}
+
+#departure,
+#return {
+  height: 2rem;
+  width: 13rem;
+  border-radius: 10px;
+  background-color: #c2d2f2;
+  color: #253769;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+label[for="datedeparture"],
+label[for="datereturn"] {
+  color: whitesmoke;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.ButtonDates {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  height: 10vh;
+}
+
+.ListDestination,
+.ListMeans {
+  padding: 2rem;
+}
+
+.ListMeans {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  margin-bottom: 1rem;
+}
+
+label[for="space1"]:hover,
+label[for="space2"]:hover,
+label[for="space3"]:hover,
+label[for="space4"]:hover,
+label[for="space5"]:hover {
+  animation: shake 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+    10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+    20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* label[for="1"]:hover,
+label[for="2"]:hover,
+label[for="3"]:hover,
+label[for="4"]:hover,
+label[for="5"]:hover,
+label[for="6"]:hover,
+label[for="7"]:hover {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+} */
