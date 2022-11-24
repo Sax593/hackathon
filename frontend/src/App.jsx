@@ -1,9 +1,8 @@
 import "./reset.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 import "./App.css";
-
-// import Home from "./pages/Home/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "@pages/Home/Home";
+import SpaceWeather from "@pages/SpaceWeather/SpaceWeather";
 import Starmap from "@pages/Starmap/Starmap";
 
 function App() {
@@ -15,6 +14,8 @@ function App() {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/starmap" element={<Starmap />} />
             {/* <Route path="/news" element={a} />
+            <Route path="/bookAFlight" element={a} /> */}
+            <Route path="/spaceWeather" element={<SpaceWeather />} />
             <Route path="/bookAFlight" element={a} />
             <Route path="/spaceWeather" element={a} /> */}
           </Routes>
