@@ -1,5 +1,5 @@
 import "./style.css";
-import blackhole from "@assets/blackhole.jpg";
+import blackhole from "@assets/blackhole1.jpg";
 
 export default function PlanetCard() {
   return (
