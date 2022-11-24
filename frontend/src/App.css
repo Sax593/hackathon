@@ -1,16 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-*{
-    --heightPage:100vh;
-    --widthPage: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  --heightPage: 100vh;
+  --widthPage: 100%;
 }
 
-
-.background{
-    position: relative;
-    height: var(--heightPage);
-    background-image: url("../src/assets/background.jpg");
-    background-size: cover;
-    background-position:center;
-    z-index: -1;
+.background {
+  position: relative;
+  height: var(--heightPage);
+  background-image: url("../src/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
