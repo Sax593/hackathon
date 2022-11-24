@@ -17,9 +17,6 @@ export default function Map() {
 
   return (
     <>
-      <button type="button" onClick={openModal}>
-        Open
-      </button>
       <Modal isOpen={modalIsOpen}>
         <button type="button" onClick={closeModal}>
           X
