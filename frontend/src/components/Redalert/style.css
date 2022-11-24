@@ -1,19 +1,15 @@
-.alert p {
-  font-size: 3rem;
-  color: red;
-  font-family: "Orbitron", sans-serif;
-}
-
 .alert {
   width: 100%;
   overflow: hidden;
   pointer-events: none;
-  z-index: 10;
   background-color: #111111;
   border-radius: 1rem;
   opacity: 80%;
 }
 .alert p {
+  font-size: 1rem;
+  color: red;
+  font-family: "Orbitron", sans-serif;
   white-space: nowrap;
   opacity: 0.85;
   animation-name: alerting;

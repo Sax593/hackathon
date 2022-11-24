@@ -2,9 +2,10 @@
 * {
   --heightPage: 100vh;
   --widthPage: 100%;
+  color: #c2d2f2;
 }
 
-.background {
+:root {
   position: relative;
   height: var(--heightPage);
   background-image: url("../src/assets/background.jpg");
