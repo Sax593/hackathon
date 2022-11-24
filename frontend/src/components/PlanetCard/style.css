@@ -1,0 +1,40 @@
+.pCard {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f1626;
+  color: #c2d2f2;
+  font-family: "Orbitron", sans-serif;
+  flex-wrap: nowrap;
+  padding: 1rem;
+  border-radius: 5rem 0.7rem 5rem 0.7rem;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #c2d2f2,
+    0 0 0.8rem #c2d2f2, 0 0 2.8rem #c2d2f2, inset 0 0 1.3rem #c2d2f2;
+}
+
+.imgplanet {
+  height: 15rem;
+  width: 12rem;
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+
+.gAlert {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.pCard h1 {
+  font-size: 2rem;
+}
+.pCard h3 {
+  font-size: 1.7rem;
+}
+
+.ptitle {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
