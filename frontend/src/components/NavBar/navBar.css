@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+  color: #c2d2f2;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #c2d2f2;
+  font-weight: bold;
+}
+
+.nav-links:hover {
+  cursor: pointer;
+}
+.navigation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
