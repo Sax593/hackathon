@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
-import Starmap from "@pages/Starmap/Starmap";
+import SolarStarmap from "@pages/SolarStarmap/SolarStarmap";
+import StantonStarmap from "@pages/StantonStarmap/StantonStarmap";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <Router>
         <div className="app">
           <Routes>
-            <Route path="/starmap" element={<Starmap />} />
+            <Route path="/starmap" element={<SolarStarmap />} />
+            <Route path="/starmap/solarsystem" element={<SolarStarmap />} />
+            <Route path="/starmap/stantonsystem" element={<StantonStarmap />} />
           </Routes>
         </div>
       </Router>

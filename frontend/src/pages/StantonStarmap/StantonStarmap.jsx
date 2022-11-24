@@ -1,6 +1,6 @@
 import Footer from "@components/Footer";
 import Header from "@components/Header/Header";
-import Overlay from "@components/Overlay/Overlay";
+import StantonOverlay from "@components/StantonOverlay/StantonOverlay";
 import RedAlert from "@components/Redalert";
 import "./style.css";
 
@@ -9,7 +9,7 @@ export default function Starmap() {
     <>
       <Header />
       <RedAlert />
-      <Overlay className="main" />
+      <StantonOverlay className="main" />
       <Footer />
     </>
   );

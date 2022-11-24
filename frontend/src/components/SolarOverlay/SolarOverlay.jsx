@@ -1,11 +1,11 @@
-import Map from "@components/Map/Map";
+import SolarSystem from "@components/SolarSystem/SolarSystem";
 import NavbarStarmap from "@components/NavbarStarmap/NavbarStarmap";
 import "./style.css";
 
 export default function Overlay() {
   return (
     <div className="overlay">
-      <Map className="map" />
+      <SolarSystem className="starmap" />
       <NavbarStarmap className="navstarmap" />
     </div>
   );
