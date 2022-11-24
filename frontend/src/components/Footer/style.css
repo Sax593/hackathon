@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: #04070d;
+  font-family: "Orbitron", sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
