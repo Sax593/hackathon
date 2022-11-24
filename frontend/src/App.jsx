@@ -1,4 +1,3 @@
-import RedAlert from "@components/Redalert";
 import "./reset.css";
 import "./App.css";
 
