@@ -1,0 +1,4 @@
+.spaceWeather {
+  display: flex;
+  flex-direction: column;
+}
