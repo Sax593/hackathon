@@ -1,24 +1,42 @@
 import "./style.css";
 import blackhole from "@assets/blackhole1.jpg";
+import data from "@assets/raw.json";
+import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
-export default function PlanetCard() {
+export default function PlanetCard({ id }) {
+  const [planet, setPlanet] = useState({});
+  useEffect(() => {
+    const planets = data.filter((d) => {
+      return d.planet_id === id;
+    })[0];
+    setPlanet(planets);
+  }, []);
   return (
     <div className="pCard">
-      <div className="ptitle">
-        <img className="imgplanet" src={blackhole} alt="Gargantua" />
-        <div>
-          <h1>Gargantua</h1>
+      {planet && (
+        <>
+          <div className="ptitle">
+            <img className="imgplanet" src={blackhole} alt="Gargantua" />
+            <div>
+              <h1>{planet.planet_name}</h1>
+              <br />
+              <h3>{planet.planet_title}</h3>
+              <p>{planet.planet_desc}</p>
+            </div>
+          </div>
+          <h1>Next Departures:</h1>
           <br />
-          <h3>Black Hole</h3>
-          <p>"?????????????????"</p>
-        </div>
-      </div>
-      <h1>Next Departures:</h1>
-      <br />
-      <p>ùpfiàl kpoe$&k$x;p$</p>
-      <p>cjf^kxal:;;;;k $</p>
-      <br />
-      <p className="gAlert">No data: please consider your customer!</p>
+          <p>ùpfiàl kpoe$&k$x;p$</p>
+          <p>cjf^kxal:;;;;k $</p>
+          <br />
+          <p className="gAlert">No data: please consider your customer!</p>
+        </>
+      )}
     </div>
   );
 }
+
+PlanetCard.propTypes = {
+  id: PropTypes.number.isRequired,
+};
