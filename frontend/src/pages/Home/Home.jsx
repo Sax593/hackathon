@@ -5,12 +5,10 @@ import Footer from "@components/Footer";
 import RedAlert from "@components/Redalert";
 import "./style.css";
 
-
 export default function Home() {
   return (
     <div className="background">
-
-<div className="fade-out">
+      <div className="fade-out">
         <DisplayHome />
       </div>
       <div className="fade-in">
@@ -19,9 +17,8 @@ export default function Home() {
           <RedAlert />
           <Departure />
         </div>
-      
-        <Footer />
 
+        <Footer />
       </div>
     </div>
   );
