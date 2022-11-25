@@ -7,43 +7,43 @@ export default function FlightBook() {
         <h1 className="TitleDestination">Select your destination</h1>
       </div>
       <div className="ListDestination">
-        <figure>
+        <figure className="Wording">
           <label htmlFor="1">
             <input type="checkbox" />
           </label>
           <figcaption>Coruscant</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="2">
             <input type="checkbox" />
           </label>
           <figcaption>Cybertron</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="3">
             <input type="checkbox" />
           </label>
           <figcaption>Dead Star</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="4">
             <input type="checkbox" />
           </label>
           <figcaption>Gargantua</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="5">
             <input type="checkbox" />
           </label>
           <figcaption>Krypton</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="6">
             <input type="checkbox" />
           </label>
           <figcaption>Mars</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="7">
             <input type="checkbox" />
           </label>
@@ -54,13 +54,13 @@ export default function FlightBook() {
         <h1 className="TitleDates">Select your travel dates</h1>
       </div>
       <div className="ButtonDates">
-        <figure>
+        <figure className="Wording">
           <label htmlFor="datedeparture">
             Date of departure :
             <input type="date" id="departure" />
           </label>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="datereturn">
             Date of return :
             <input type="date" id="return" />
@@ -71,31 +71,31 @@ export default function FlightBook() {
         <h1 className="TitleMeans">Select your means of transport</h1>
       </div>
       <div className="ListMeans">
-        <figure>
+        <figure className="Wording">
           <label htmlFor="space1">
             <input type="checkbox" />
           </label>
           <figcaption>Space 1</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="space2">
             <input type="checkbox" />
           </label>
           <figcaption>Space 2</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="space3">
             <input type="checkbox" />
           </label>
           <figcaption>Space 3</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="space4">
             <input type="checkbox" />
           </label>
           <figcaption>Space 4</figcaption>
         </figure>
-        <figure>
+        <figure className="Wording">
           <label htmlFor="space5">
             <input type="checkbox" />
           </label>
