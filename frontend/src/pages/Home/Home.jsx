@@ -4,6 +4,7 @@ import Departure from "@components/departure";
 import Footer from "@components/Footer";
 import RedAlert from "@components/Redalert";
 import "./style.css";
+import Booking from "@components/Booking/Booking";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <div className="main">
           <RedAlert />
           <Departure />
+          <Booking />
         </div>
 
         <Footer />
