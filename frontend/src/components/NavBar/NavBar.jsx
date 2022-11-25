@@ -14,7 +14,7 @@ export default function NavBar() {
         <NavLink to="/starMap" className="nav-links">
           <li className="nav-list">StarMap</li>
         </NavLink>
-        <NavLink to="/bookAFlight" className="nav-links">
+        <NavLink to="/flightbook" className="nav-links">
           <li className="nav-list">Book a flight</li>
         </NavLink>
         <NavLink to="/spaceWeather" className="nav-links">
