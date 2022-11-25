@@ -65,6 +65,29 @@ export default function NewsPage() {
           </article>
         </section>
       </section>
+      <section className="newArticle">
+        <article className="mars">
+          <section className="articleContentMars">
+            <h3 className="articleTitleMars">The terraforming of Mars</h3>
+            <p className="articleParagraphMars">
+              Considered by some the greatest engineering project in human
+              history, the terraforming project is a driving force of Martian
+              society, involving most of the population of Mars either directly
+              or indirectly. However, it is implied that the project is in
+              decline, due to younger generations of Martians becoming
+              accustomed to living in domed settlements.
+            </p>
+            <p className="articleParagraphMars">
+              The project lost its priority status with the discovery of the
+              Stargate network. Why go through all the hard work terraform Mars
+              when there are hundreds of habitable worlds that already exist?
+              The "gold rush" to claim new planets led to a significant portion
+              of the Martian population leaving Mars removing a large amount of
+              the planet's tax base and labor force.
+            </p>
+          </section>
+        </article>
+      </section>
     </main>
   );
 }
