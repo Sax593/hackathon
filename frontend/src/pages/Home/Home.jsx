@@ -1,9 +1,21 @@
 import Header from "@components/Header/Header";
+import DisplayHome from "@components/DisplayHome/DisplayHome";
+import Booking from "@components/Booking/Booking";
+import Departure from "@components/departure";
+import Footer from "@components/Footer";
+import RedAlert from "@components/Redalert";
 
 export default function Home() {
   return (
-    <div>
+    <div className="background">
+      <DisplayHome />
       <Header />
+      <div className="main">
+        <RedAlert />
+        <Departure />
+      </div>
+      <Booking />
+      <Footer />
     </div>
   );
 }

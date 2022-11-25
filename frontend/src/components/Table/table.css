@@ -1,0 +1,153 @@
+.mainContainer {
+  width: 80vw;
+  margin: auto;
+}
+
+.mainContainer > * {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  background-color: #04070d;
+  color: #c2d2f2;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight"
+    "planets solarFlare supernova asteroidImpact fight";
+}
+.titleTable {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #04070d;
+  color: #c2d2f2;
+  width: 100%;
+  height: 5rem;
+  font-size: 2em;
+}
+
+.planets {
+  grid-area: planets;
+}
+
+.solarFlare {
+  grid-area: solarFlare;
+  background-color: rgba(71, 84, 114, 0.5);
+}
+
+.supernova {
+  grid-area: supernova;
+  background-color: rgba(71, 84, 114, 0.5);
+}
+
+.asteroidImpact {
+  grid-area: asteroidImpact;
+  background-color: rgba(71, 84, 114, 0.5);
+}
+
+.flight {
+  grid-area: fight;
+  background-color: rgba(71, 84, 114, 0.5);
+}
+
+.titleColumn {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.planet {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.list-flight {
+  height: 2rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.list-flight[data-status="Confirmed"]::before {
+  content: "Confirmed";
+  color: #6ac66b;
+}
+
+.list-flight[data-status="Late"]::before {
+  content: "Late";
+  color: #ff9045;
+}
+
+.list-flight[data-status="Cancelled"]::before {
+  content: "Cancelled";
+  color: #ff0000;
+}
+
+.imgPlanet {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  text-align: center;
+}
+
+.risk {
+  background-color: #04070d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.riskLow,
+.riskMiddle,
+.riskHight {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c2d2f2;
+  margin-bottom: 1rem;
+}
+
+li.bulletGreen::before {
+  content: "\2022";
+  font-size: 3rem;
+  color: green;
+}
+li.bulletOrange::before {
+  content: "\2022";
+  font-size: 3rem;
+  color: orange;
+}
+li.bulletRed::before {
+  content: "\2022";
+  font-size: 3rem;
+  color: red;
+}
+.bulletGreen,
+.bulletRed,
+.bulletOrange {
+  display: flex;
+  justify-content: center;
+}

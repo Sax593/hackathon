@@ -1,1 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  --heightHeader: 5rem;
+  --widthPage: 100%;
+}
+
+:root {
+  position: relative;
+  height: var(--heightPage);
+  background-image: url("../src/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}

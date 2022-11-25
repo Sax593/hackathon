@@ -1,22 +1,29 @@
 import "./reset.css";
 import "./App.css";
-import FlightBook from "./components/FlightBook/FlightBook";
+import FlightBooking from "@pages/FlightBooking/FlightBooking";
+import NewsPage from "@pages/NewsPage/NewsPage";
+import SpaceWeather from "@pages/SpaceWeather/SpaceWeather";
+import OtherStarmap from "@pages/OtherStarmap/OtherStarmap";
+import StantonStarmap from "@pages/StantonStarmap/StantonStarmap";
+import SolarStarmap from "@pages/SolarStarmap/SolarStarmap";
+import Home from "@pages/Home/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <FlightBook />
-      {/* <Router>
-        <div className="app">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/news" element={a} />
-            <Route path="/starMap" element={a} />
-            <Route path="/bookAFlight" element={a} />
-            <Route path="/spaceWeather" element={a} />
-          </Routes>
-        </div>
-      </Router> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/starmap" element={<SolarStarmap />} />
+          <Route path="/starmap/solarsystem" element={<SolarStarmap />} />
+          <Route path="/starmap/stantonsystem" element={<StantonStarmap />} />
+          <Route path="/starmap/othersystem" element={<OtherStarmap />} />
+          <Route path="/spaceWeather" element={<SpaceWeather />} />
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/flightbook" element={<FlightBooking />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

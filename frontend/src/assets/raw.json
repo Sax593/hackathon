@@ -1,0 +1,135 @@
+[
+  {
+    "planet_name": "Mars",
+    "planet_id": 1,
+    "planet-title": "Red Planet",
+    "planet_desc": "The red planet will offer you an unique experience where the thirst will became your better friends ",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Sun",
+    "planet_id": 8,
+    "planet-title": "Sun",
+    "planet_desc": "You can fly over but you approching axcept for a mechoui",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Mercure",
+    "planet_id": 9,
+    "planet-title": "",
+    "planet_desc": "It's not a rectal thermometer producting planet",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Venus",
+    "planet_id": 10,
+    "planet-title": "",
+    "planet_desc": "Uninteresting",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Earth",
+    "planet_id": 11,
+    "planet-title": "Blue planet",
+    "planet_desc": "The cradle of Humanity",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Jupiter",
+    "planet_id": 12,
+    "planet-title": "Industrial planet",
+    "planet_desc": "Place to be for trade and raw material exchange",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Saturn",
+    "planet_id": 13,
+    "planet-title": "Gas Giant",
+    "planet_desc": "Place to be for gas exchange",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Uranus",
+    "planet_id": 14,
+    "planet-title": "Ininteresting planet",
+    "planet_desc": "",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Neptun",
+    "planet_id": 15,
+    "planet-title": "floating city planet",
+    "planet_desc": "Visit the wonderful floating city of Neptun for the week with your wife",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Coruscant",
+    "planet_id": 2,
+    "planet-title": "Capital Planet",
+    "planet_desc": "Visit the city planet.Please take looking to stay here a lots of days to discover some specialities",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Krypton",
+    "planet_id": 3,
+    "planet-title": "Superman Homeland",
+    "planet_desc": "Currently exploding planet",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Death Star",
+    "planet_id": 4,
+    "planet-title": "It's not a Moon",
+    "planet_desc": "Visit the most famous weapon of sith Lord and become a stormtrooper for a day with our special experience Stormtroopday!",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Orion",
+    "planet_id": 5,
+    "planet-title": "Metallica Planet",
+    "planet_desc": "Arquilian galaxy.Agent Jay accidently discover this galaxy on the collar of a cat.Since Spaceverse offer a chance to visit.Be sure to tall less than 6 inches ",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Cybertron",
+    "planet_id": 6,
+    "planet-title": "Homeland of Autobots",
+    "planet_desc": "Metal planet ,where the war was friendly.Visit the two capital : Iacon and Kaon. Let you grab by the Rust sea!  ",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Gargantua",
+    "planet_id": 7,
+    "planet-title": "Black Hole",
+    "planet_desc": "ùpfiàl kpoe$&k$x;p$",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Huston",
+    "planet_id": 16,
+    "planet-title": "Industrial planet",
+    "planet_desc": "Place to be for trade and raw material exchange",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Crusader",
+    "planet_id": 17,
+    "planet-title": "Industrial planet",
+    "planet_desc": "Place to be for trade and raw material exchange",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "ArcCorp",
+    "planet_id": 18,
+    "planet-title": "Industrial planet",
+    "planet_desc": "Place to be for trade and raw material exchange",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Microtch",
+    "planet_id": 19,
+    "planet-title": "Industrial planet",
+    "planet_desc": "Place to be for trade and raw material exchange",
+    "planet_poster": ""
+  }
+]
