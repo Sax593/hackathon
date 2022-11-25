@@ -1,17 +1,14 @@
-.nav{
+.nav {
   display: flex;
   align-content: center;
   gap: 5rem;
-  margin:auto;
-  margin-right: 1em
-
+  margin: auto;
+  margin-right: 1em;
 }
 
-.navigation{
+.navigation {
   display: flex;
-  
 }
-
 
 .nav-list {
   color: #c2d2f2;
@@ -19,7 +16,6 @@
   text-decoration: none;
   font-size: 1.5em;
   opacity: 1;
-
 }
 
 .nav-links {
