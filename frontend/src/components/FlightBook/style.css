@@ -36,7 +36,7 @@
   margin: 0.5rem;
 }
 
-figure {
+.Wording {
   display: inline-block;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -51,7 +51,7 @@ figcaption {
   font-weight: bold;
 }
 
-figure:hover figcaption {
+.Wording:hover figcaption {
   color: #ff0000;
   background-color: #04070d;
   border-radius: 10px;
