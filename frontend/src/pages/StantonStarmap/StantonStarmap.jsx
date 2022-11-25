@@ -4,7 +4,7 @@ import StantonOverlay from "@components/StantonOverlay/StantonOverlay";
 import RedAlert from "@components/Redalert";
 import "./style.css";
 
-export default function Starmap() {
+export default function StantonStarmap() {
   return (
     <>
       <Header />

@@ -4,7 +4,7 @@ import { Canvas, Arc } from "react-canva";
 import Modal from "react-modal";
 import "./style.css";
 
-export default function SolarSystem() {
+export default function OtherSystem() {
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const openModal = () => {

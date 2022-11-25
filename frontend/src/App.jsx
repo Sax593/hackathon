@@ -5,6 +5,7 @@ import "./App.css";
 
 import SolarStarmap from "@pages/SolarStarmap/SolarStarmap";
 import StantonStarmap from "@pages/StantonStarmap/StantonStarmap";
+import OtherStarmap from "@pages/OtherStarmap/OtherStarmap";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/starmap" element={<SolarStarmap />} />
             <Route path="/starmap/solarsystem" element={<SolarStarmap />} />
             <Route path="/starmap/stantonsystem" element={<StantonStarmap />} />
+            <Route path="/starmap/othersystem" element={<OtherStarmap />} />
           </Routes>
         </div>
       </Router>

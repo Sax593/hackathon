@@ -9,6 +9,9 @@ export default function NavbarStarmap() {
       <Link to="/starmap/stantonsystem">
         <li>Stanton system</li>
       </Link>
+      <Link to="/starmap/othersystem">
+        <li>Other destination</li>
+      </Link>
     </ul>
   );
 }
