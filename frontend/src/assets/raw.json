@@ -1,0 +1,51 @@
+[
+  {
+    "planet_name": "Mars",
+    "planet_id": 1,
+    "planet-title": "Red Planet",
+    "planet_desc": "The red planet will offer you an unique experience where the thirst will became your better friends ",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Coruscant",
+    "planet_id": 2,
+    "planet-title": "Capital Planet",
+    "planet_desc": "Visit the city planet.Please take looking to stay here a lots of days to discover some specialities",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Krypton",
+    "planet_id": 3,
+    "planet-title": "Superman Homeland",
+    "planet_desc": "Currently exploding planet",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Death Star",
+    "planet_id": 4,
+    "planet-title": "It's not a Moon",
+    "planet_desc": "Visit the most famous weapon of sith Lord and become a stormtrooper for a day with our special experience Stormtroopday!",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Orion",
+    "planet_id": 5,
+    "planet-title": "Metallica Planet",
+    "planet_desc": "Arquilian galaxy.Agent Jay accidently discover this galaxy on the collar of a cat.Since Spaceverse offer a chance to visit.Be sure to tall less than 6 inches ",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Cybertron",
+    "planet_id": 6,
+    "planet-title": "Homeland of Autobots",
+    "planet_desc": "Metal planet ,where the war was friendly.Visit the two capital : Iacon and Kaon. Let you grab by the Rust sea!  ",
+    "planet_poster": ""
+  },
+  {
+    "planet_name": "Gargantua",
+    "planet_id": 7,
+    "planet-title": "Black Hole",
+    "planet_desc": "ùpfiàl kpoe$&k$x;p$",
+    "planet_poster": ""
+  }
+]

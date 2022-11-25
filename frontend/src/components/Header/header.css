@@ -1,7 +1,7 @@
 .header {
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 1em;
 }
