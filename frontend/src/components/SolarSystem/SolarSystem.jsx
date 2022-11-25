@@ -15,10 +15,21 @@ export default function SolarSystem() {
   const closeModal = () => {
     setIsOpen(false);
   };
+  const customStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      background: "none",
+    },
+  };
 
   return (
     <>
-      <Modal isOpen={modalIsOpen} id={id}>
+      <Modal isOpen={modalIsOpen} id={id} style={customStyles}>
         <button type="button" onClick={closeModal}>
           X
         </button>
