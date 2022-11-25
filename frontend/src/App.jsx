@@ -1,12 +1,7 @@
 import "./reset.css";
 import "./App.css";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "@pages/Home/Home";
-import SpaceWeather from "@pages/SpaceWeather/SpaceWeather";
-import SolarStarmap from "@pages/SolarStarmap/SolarStarmap";
-import StantonStarmap from "@pages/StantonStarmap/StantonStarmap";
-import OtherStarmap from "@pages/OtherStarmap/OtherStarmap";
+
 
 function App() {
   return (
@@ -20,7 +15,7 @@ function App() {
             <Route path="/starmap/stantonsystem" element={<StantonStarmap />} />
             <Route path="/starmap/othersystem" element={<OtherStarmap />} />
             <Route path="/spaceWeather" element={<SpaceWeather />} />
-            {/* <Route path="/news" element={a} />
+            <Route path="/news" element={<NewsPage />} />
             <Route path="/bookAFlight" element={a} /> 
             <Route path="/bookAFlight" element={a} /> */}
           </Routes>

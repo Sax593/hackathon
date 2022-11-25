@@ -1,7 +1,8 @@
 .header {
   height: 15vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  height: var(--heightHeader);
+  background: rgba(217, 217, 217, 0.1);
+
 }
