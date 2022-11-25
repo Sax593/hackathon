@@ -2,6 +2,20 @@
   height: 40vh;
   aspect-ratio: 1;
 }
+.mainHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.audioPlayer {
+  opacity: 0.02;
+  position: absolute;
+  height: 10em;
+  width: 10%;
+  top: 500px;
+
+  /* align-self: center; */
+}
 
 .center {
   position: absolute;

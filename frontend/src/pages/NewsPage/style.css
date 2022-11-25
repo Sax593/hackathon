@@ -1,13 +1,15 @@
-main {
+.newsPage {
   background-color: #04070d;
 }
 .stargate,
 .deathStar,
-.musk, .mars {
+.musk,
+.mars {
   color: #c2d2f2;
 }
 
-.articles, .mars {
+.articles,
+.mars {
   display: flex;
   gap: 1rem;
   margin-top: 3em;
@@ -24,7 +26,8 @@ main {
 
 .deathStar,
 .stargate,
-.musk, .mars {
+.musk,
+.mars {
   background-color: #0f1626;
   padding: 1rem;
   border-radius: 5rem 0.7rem 5rem 0.7rem;
@@ -65,7 +68,7 @@ main {
   justify-content: flex-end;
 }
 
-.mars{
+.mars {
   height: 50vh;
   background-image: url("../../assets/mars.jpg");
   background-size: contain;
@@ -111,14 +114,17 @@ main {
 .articleTitleDS,
 .articleParagraphDS,
 .articleTitleM,
-.articleParagraphM, .articleParagraphMars, .articleTitleMars {
+.articleParagraphM,
+.articleParagraphMars,
+.articleTitleMars {
   color: #c2d2f2;
   font-family: "Orbitron", sans-serif;
 }
 
 .articleTitleST,
 .articleTitleDS,
-.articleTitleM,.articleTitleMars {
+.articleTitleM,
+.articleTitleMars {
   text-align: center;
   font-size: 1.5em;
   text-align: center;
@@ -164,8 +170,6 @@ main {
   margin-right: 2em;
   margin-top: 1em;
 }
-
-
 
 .articleContentMars {
   width: 60%;
