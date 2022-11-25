@@ -16,13 +16,11 @@
 .TitleMeans {
   width: 800px;
   height: 40px;
-  /* background-color: #04070d; */
   color: #c2d2f2;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
-  /* border: 3px solid #ff0000; */
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -32,9 +30,9 @@
     rgba(0, 0, 0, 1) 45%,
     rgba(42, 60, 109, 1) 95%
   );
-  border: 0.2rem solid #ff0000;
-  box-shadow: 0 0 0.1rem #ff0000, 0 0 0.1rem #ff0000, 0 0 1rem #ff0000,
-    0 0 0.6rem #ff0000, 0 0 2.6rem #ff0000, inset 0 0 1.1rem #ff0000;
+  border: 0.2rem solid #c2d2f2;
+  box-shadow: 0 0 0.1rem #c2d2f2, 0 0 0.1rem #c2d2f2, 0 0 1rem #c2d2f2,
+    0 0 0.6rem #c2d2f2, 0 0 2.6rem #c2d2f2, inset 0 0 1.1rem #c2d2f2;
   margin: 0.5rem;
 }
 
@@ -67,40 +65,56 @@ label[for="1"] {
   content: url("../../assets/coruscant.png");
   height: 10rem;
   cursor: pointer;
+  animation: rotation 20s infinite linear;
 }
+
 label[for="2"] {
   content: url("../../assets/cybertron.png");
   height: 10rem;
   cursor: pointer;
+  animation: rotation 25s infinite linear;
 }
 label[for="3"] {
   content: url("../../assets/deadstar.png");
   height: 10rem;
   cursor: pointer;
+  animation: rotation 30s infinite linear;
 }
 label[for="4"] {
   content: url("../../assets/gargantua.jpg");
   height: 10rem;
   cursor: pointer;
   border-radius: 50%;
+  animation: rotation 60s infinite linear;
 }
 label[for="5"] {
   content: url("../../assets/krypton.png");
   height: 10rem;
   border-radius: 50%;
   cursor: pointer;
+  animation: rotation 18s infinite linear;
 }
 label[for="6"] {
   content: url("../../assets/mars.png");
   height: 10rem;
   cursor: pointer;
+  animation: rotation 19s infinite linear;
 }
 label[for="7"] {
   content: url("../../assets/orion.png");
   height: 10rem;
   cursor: pointer;
+  animation: rotation 35s infinite linear;
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 label[for="space1"] {
   content: url("../../assets/space-1.png");
   height: 10rem;
@@ -221,10 +235,10 @@ label[for="space5"]:hover {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
   }
-    10% {
+  10% {
     transform: translate(-1px, -2px) rotate(-1deg);
   }
-    20% {
+  20% {
     transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
@@ -252,20 +266,6 @@ label[for="space5"]:hover {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
-
-/* label[for="1"]:hover,
-label[for="2"]:hover,
-label[for="3"]:hover,
-label[for="4"]:hover,
-label[for="5"]:hover,
-label[for="6"]:hover,
-label[for="7"]:hover {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-} */
 
 label[for="datedeparture"],
 label[for="datereturn"] {

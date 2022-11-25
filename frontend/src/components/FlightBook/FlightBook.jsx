@@ -50,7 +50,6 @@ export default function FlightBook() {
           <figcaption>Orion</figcaption>
         </figure>
       </div>
-
       <div className="SelectDates">
         <h1 className="TitleDates">Select your travel dates</h1>
       </div>
@@ -68,7 +67,6 @@ export default function FlightBook() {
           </label>
         </figure>
       </div>
-
       <div className="SelectMeans">
         <h1 className="TitleMeans">Select your means of transport</h1>
       </div>
@@ -104,7 +102,6 @@ export default function FlightBook() {
           <figcaption>Space 5</figcaption>
         </figure>
       </div>
-
       <div className="ViewPrice">
         <button type="button" className="price-button">
           VIEW PRICE
