@@ -6,6 +6,7 @@ import RedAlert from "@components/Redalert";
 import Advert from "@components/Advert/Advert";
 import Booking from "@components/Booking/Booking";
 import "./style.css";
+import Audio from "@components/Audio/Audio";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
           <RedAlert />
           <Departure />
           <Advert />
+          <div className="audioPlayer">
+            <Audio />
+          </div>
           <Booking />
         </div>
         <div className="ShootingStar">
