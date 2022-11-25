@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
+
 export default function NavbarStarmap() {
   return (
     <ul className="navStarmap">
-      <li>Solar system</li>
-      <li>Stanton system</li>
+      <Link to="/starmap/solarsystem">
+        <li>Solar system</li>
+      </Link>
+      <Link to="/starmap/stantonsystem">
+        <li>Stanton system</li>
+      </Link>
     </ul>
   );
 }
