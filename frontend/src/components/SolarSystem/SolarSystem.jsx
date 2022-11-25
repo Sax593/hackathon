@@ -1,4 +1,4 @@
-import PlanetCard from "@components/PlanetCard/PlanetCard";
+import PlanetCard from "@components/PlanetCard/index";
 import { useState } from "react";
 import { Canvas, Arc } from "react-canva";
 import Modal from "react-modal";
@@ -6,6 +6,7 @@ import "./style.css";
 
 export default function SolarSystem() {
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [id, setId] = useState(0);
 
   const openModal = () => {
     setIsOpen(true);
@@ -17,11 +18,11 @@ export default function SolarSystem() {
 
   return (
     <>
-      <Modal isOpen={modalIsOpen}>
+      <Modal isOpen={modalIsOpen} id={id}>
         <button type="button" onClick={closeModal}>
           X
         </button>
-        <PlanetCard />
+        <PlanetCard id={id} />
       </Modal>
       <Canvas>
         <Arc
@@ -32,7 +33,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="yellow"
           fill="yellow"
-          onClick={openModal}
+          onClick={() => {
+            setId(8);
+            openModal();
+          }}
         />
         <Arc
           x={400}
@@ -42,7 +46,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="grey"
           fill="grey"
-          onClick={openModal}
+          onClick={() => {
+            setId(9);
+            openModal();
+          }}
         />
         <Arc
           x={500}
@@ -52,7 +59,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="orange"
           fill="orange"
-          onClick={openModal}
+          onClick={() => {
+            setId(10);
+            openModal();
+          }}
         />
         <Arc
           x={690}
@@ -62,7 +72,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="blue"
           fill="blue"
-          onClick={openModal}
+          onClick={() => {
+            setId(11);
+            openModal();
+          }}
         />
         <Arc
           x={705}
@@ -72,7 +85,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="red"
           fill="red"
-          onClick={openModal}
+          onClick={() => {
+            setId(1);
+            openModal();
+          }}
         />
         <Arc
           x={400}
@@ -82,7 +98,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="#dfb740"
           fill="#dfb740"
-          onClick={openModal}
+          onClick={() => {
+            setId(12);
+            openModal();
+          }}
         />
         <Arc
           x={780}
@@ -92,7 +111,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="#d4b457"
           fill="#d4b457"
-          onClick={openModal}
+          onClick={() => {
+            setId(13);
+            openModal();
+          }}
         />
         <Arc
           x={780}
@@ -111,7 +133,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="#23edd5"
           fill="#23edd5"
-          onClick={openModal}
+          onClick={() => {
+            setId(14);
+            openModal();
+          }}
         />
         <Arc
           x={90}
@@ -130,7 +155,10 @@ export default function SolarSystem() {
           endAngle={180}
           stroke="#0066cc"
           fill="#0066cc"
-          onClick={openModal}
+          onClick={() => {
+            setId(15);
+            openModal();
+          }}
         />
         <Arc
           x={500}
