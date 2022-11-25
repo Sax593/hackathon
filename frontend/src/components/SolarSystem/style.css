@@ -1,0 +1,7 @@
+canvas {
+  max-width: 90vw;
+  max-height: 90vh;
+  background-image: url(@assets/ciel-etoile-etoiles-sombre.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

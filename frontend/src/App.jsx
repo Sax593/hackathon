@@ -1,9 +1,7 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./services/reset.css";
+import "./reset.css";
 import "./App.css";
 
-import Home from "./pages/Home/Home";
-import NewsPage from "./pages/NewsPage/NewsPage";
+
 
 function App() {
   return (
@@ -12,10 +10,14 @@ function App() {
         <div className="app">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/starmap" element={<SolarStarmap />} />
+            <Route path="/starmap/solarsystem" element={<SolarStarmap />} />
+            <Route path="/starmap/stantonsystem" element={<StantonStarmap />} />
+            <Route path="/starmap/othersystem" element={<OtherStarmap />} />
+            <Route path="/spaceWeather" element={<SpaceWeather />} />
             <Route path="/news" element={<NewsPage />} />
-            {/* <Route path="/starMap" element={a} /> */}
-            {/* <Route path="/bookAFlight" element={a} /> */}
-            {/* <Route path="/spaceWeather" element={a} /> */}
+            <Route path="/bookAFlight" element={a} /> 
+            <Route path="/bookAFlight" element={a} /> */}
           </Routes>
         </div>
       </Router>

@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 *{
-    /* --heightPage:85vh; */
+
     --heightHeader: 5rem;
     --widthPage: 100%;
 }
@@ -16,4 +16,4 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
-}
+

@@ -1,0 +1,7 @@
+canvas {
+  max-width: 90vw;
+  max-height: 90vh;
+  background-image: url(@assets/dreamstime_xl_38067044-800.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
