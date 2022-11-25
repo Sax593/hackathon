@@ -1,9 +1,11 @@
+// import ModalPrice from "./components/ModalPrice/ModalPrice";
 import "./reset.css";
 import "./App.css";
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "@pages/Home/Home";
 import FlightBook from "@components/FlightBook/FlightBook";
+
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import Home from "@pages/Home/Home";
+// import FlightBook from "@components/FlightBook/FlightBook";
 
 function App() {
   return (
