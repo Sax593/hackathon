@@ -1,28 +1,31 @@
-main{
-  background-color: #04070D;
+main {
+  background-color: #04070d;
 }
-.stargate, .deathStar, .musk{
-    color: #C2D2F2;
+.stargate,
+.deathStar,
+.musk, .mars {
+  color: #c2d2f2;
 }
 
+.articles, .mars {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
 
-.articles {
-    display: flex;
-    gap: 1rem;
-    margin-top: 3em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    }
-
-.rightSide{
+.rightSide {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-right: 0.5em;
 }
 
-.deathStar, .stargate, .musk{
-  background-color: #0F1626;
+.deathStar,
+.stargate,
+.musk, .mars {
+  background-color: #0f1626;
   padding: 1rem;
   border-radius: 5rem 0.7rem 5rem 0.7rem;
   border: 0.2rem solid #fff;
@@ -30,14 +33,13 @@ main{
     0 0 0.8rem #c2d2f2, 0 0 2.8rem #c2d2f2, inset 0 0 1.3rem #c2d2f2;
 }
 
-.stargate { 
-
+.stargate {
   height: var(--heightPage);
   height: 120vh;
   background-image: url("../../assets/stargate.webp");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top; 
+  background-position: top;
   margin-left: 0.5em;
   display: flex;
   align-items: flex-end;
@@ -45,80 +47,94 @@ main{
   gap: 1em;
 }
 
-
-.deathStar{ 
-    height: 55vh;
-    background-image: url("../../assets/deathstar.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top right;
+.deathStar {
+  height: 55vh;
+  background-image: url("../../assets/deathstar.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
-.musk { 
-    height: 55vh;
-    background-image: url("../../assets/musk.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top left;
-    display: flex;
-    justify-content: flex-end;
-    
+.musk {
+  height: 55vh;
+  background-image: url("../../assets/musk.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.articleContentST{
+.mars{
+  height: 50vh;
+  background-image: url("../../assets/mars.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.articleContentST {
   text-align: center;
 }
 
 .alertnews {
-    white-space: nowrap;
-    opacity: 0.85;
-    animation-name: alerting;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes alerting {
-    0% {
-      transform: translate(50%, 0);
-    }
-    100% {
-      transform: translate(-50vw, 0);
+  white-space: nowrap;
+  opacity: 0.85;
+  animation-name: alerting;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
 
-    }
+@keyframes alerting {
+  0% {
+    transform: translate(50%, 0);
   }
+  100% {
+    transform: translate(-50vw, 0);
+  }
+}
 
-  .flashnews{
-    color: red;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 4em;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-  }
+.flashnews {
+  color: red;
+  font-family: "Orbitron", sans-serif;
+  font-size: 4em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
 
-  .articleTitleST, .articleParagraphST, .articleTitleDS, .articleParagraphDS, .articleTitleM, .articleParagraphM{
-    color: #C2D2F2;
-    font-family: 'Orbitron', sans-serif;
-  }
+.articleTitleST,
+.articleParagraphST,
+.articleTitleDS,
+.articleParagraphDS,
+.articleTitleM,
+.articleParagraphM, .articleParagraphMars, .articleTitleMars {
+  color: #c2d2f2;
+  font-family: "Orbitron", sans-serif;
+}
 
-  .articleTitleST, .articleTitleDS, .articleTitleM{
-    text-align: center;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 0.5em;
-  }
-  .articleParagraphST{
-    margin-top: 2em;
-    font-size: 1.2em;
-    text-align: justify;
-    line-height: 1.5em;
-    margin-right: 1em;
-    margin-left: 1em;
-    margin-bottom: 1em;
-  }
+.articleTitleST,
+.articleTitleDS,
+.articleTitleM,.articleTitleMars {
+  text-align: center;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.articleParagraphST {
+  margin-top: 2em;
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
 
-.articleContentDS{
+.articleContentDS {
   width: 35%;
   margin: 1em;
 }
@@ -129,16 +145,30 @@ main{
   line-height: 1.5em;
 }
 
-.articleParagraphM{
+.articleParagraphM {
   margin-top: 2em;
   font-size: 1em;
   text-align: justify;
   line-height: 1.5em;
 }
 
-.articleContentM{
+.articleParagraphMars {
+  margin-top: 2em;
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.articleContentM {
   width: 40%;
   margin-right: 2em;
   margin-top: 1em;
 }
 
+
+
+.articleContentMars {
+  width: 60%;
+  margin-right: 1em;
+  margin-top: 1em;
+}
