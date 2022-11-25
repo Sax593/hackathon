@@ -14,8 +14,8 @@
     "planet_title": "Sun",
     "planet_desc": "You can fly over but you approching axcept for a mechoui",
     "planet_poster": "sun.jpg",
-    "planet_departure": "2954-12-08 #67:18",
-    "planet_hours": ""
+    "planet_departure": "2954-12-08 ",
+    "planet_hours": "#67:18"
   },
   {
     "planet_name": "Mercure",
@@ -59,8 +59,8 @@
     "planet_title": "Gas Giant",
     "planet_desc": "Place to be for gas exchange",
     "planet_poster": "saturn.jpg",
-    "planet_departure": "2955-03-11 #00:00",
-    "planet_hours": ""
+    "planet_departure": "2955-03-11 ",
+    "planet_hours": "#00:00"
   },
   {
     "planet_name": "Uranus",
@@ -68,8 +68,8 @@
     "planet_title": "Ininteresting planet",
     "planet_desc": "",
     "planet_poster": "uranus.jpg",
-    "planet_departure": "2955-05-11 #00:30",
-    "planet_hours": ""
+    "planet_departure": "2955-05-11 ",
+    "planet_hours": "#00:30"
   },
   {
     "planet_name": "Neptun",
@@ -77,8 +77,8 @@
     "planet_title": "floating city planet",
     "planet_desc": "Visit the wonderful floating city of Neptun for the week with your wife",
     "planet_poster": "neptune.png",
-    "planet_departure": "2955-06-04 #01:00",
-    "planet_hours": ""
+    "planet_departure": "2955-06-04 ",
+    "planet_hours": "#01:00"
   },
   {
     "planet_name": "Coruscant",
@@ -86,8 +86,8 @@
     "planet_title": "Capital Planet",
     "planet_desc": "Visit the city planet.Please take looking to stay here a lots of days to discover some specialities",
     "planet_poster": "coruscant.png",
-    "planet_departure": "2955-08-10 #02:00",
-    "planet_hours": ""
+    "planet_departure": "2955-08-10 ",
+    "planet_hours": "#02:00"
   },
   {
     "planet_name": "Krypton",
@@ -95,8 +95,8 @@
     "planet_title": "Superman Homeland",
     "planet_desc": "Currently exploding planet",
     "planet_poster": "krypton.jpg",
-    "planet_departure": "2955-08-21 #04:00",
-    "planet_hours": ""
+    "planet_departure": "2955-08-21 ",
+    "planet_hours": "#04:00"
   },
   {
     "planet_name": "Death Star",
@@ -104,8 +104,8 @@
     "planet_title": "It's not a Moon",
     "planet_desc": "Visit the most famous weapon of sith Lord and become a stormtrooper for a day with our special experience Stormtroopday!",
     "planet_poster": "deathstar.jpg",
-    "planet_departure": "2954-06-12 #04:30",
-    "planet_hours": ""
+    "planet_departure": "2954-06-12 ",
+    "planet_hours": "#04:30"
   },
   {
     "planet_name": "Orion",
@@ -113,8 +113,8 @@
     "planet_title": "Metallica Planet",
     "planet_desc": "Arquilian galaxy.Agent Jay accidently discover this galaxy on the collar of a cat.Since Spaceverse offer a chance to visit.Be sure to tall less than 6 inches ",
     "planet_poster": "orion.jpg",
-    "planet_departure": "2955-08-24 #05:00",
-    "planet_hours": ""
+    "planet_departure": "2955-08-24 ",
+    "planet_hours": "#05:00"
   },
   {
     "planet_name": "Cybertron",
@@ -122,8 +122,8 @@
     "planet_title": "Homeland of Autobots",
     "planet_desc": "Metal planet ,where the war was friendly.Visit the two capital : Iacon and Kaon. Let you grab by the Rust sea!  ",
     "planet_poster": "cybertron.png",
-    "planet_departure": "2955-09-20 #09:00",
-    "planet_hours": ""
+    "planet_departure": "2955-09-20 ",
+    "planet_hours": "#09:00"
   },
   {
     "planet_name": "Gargantua",

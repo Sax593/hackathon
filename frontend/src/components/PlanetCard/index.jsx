@@ -30,10 +30,14 @@ export default function PlanetCard({ id }) {
           </div>
           <h1>Next Departures:</h1>
           <br />
-          <p>ùpfiàl kpoe$&k$x;p$</p>
-          <p>cjf^kxal:;;;;k $</p>
+          <p>{planet.planet_departure}</p>
+          <p>{planet.planet_hours}</p>
           <br />
-          <p className="gAlert">No data: please consider your customer!</p>
+          {planet.planet_name === "Gargantua" ? (
+            <p className="gAlert">No data: please consider your customer!</p>
+          ) : (
+            <button type="button">Book your tickets</button>
+          )}
         </>
       )}
     </div>
