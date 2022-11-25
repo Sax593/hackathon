@@ -14,7 +14,7 @@ export default function Booking() {
         <label>
           <input
             id="name"
-            placeholder="Microtech"
+            placeholder="Zephyr Swift"
             type="text"
             value={location}
             onChange={(event) => {

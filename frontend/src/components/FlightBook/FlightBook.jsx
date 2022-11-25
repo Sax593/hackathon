@@ -75,31 +75,31 @@ export default function FlightBook() {
           <label htmlFor="space1">
             <input type="checkbox" />
           </label>
-          <figcaption>Space 1</figcaption>
+          <figcaption>Ad Astra</figcaption>
         </figure>
         <figure className="Wording">
           <label htmlFor="space2">
             <input type="checkbox" />
           </label>
-          <figcaption>Space 2</figcaption>
+          <figcaption>Zephyr Swift</figcaption>
         </figure>
         <figure className="Wording">
           <label htmlFor="space3">
             <input type="checkbox" />
           </label>
-          <figcaption>Space 3</figcaption>
+          <figcaption>Destiny of Tribo</figcaption>
         </figure>
         <figure className="Wording">
           <label htmlFor="space4">
             <input type="checkbox" />
           </label>
-          <figcaption>Space 4</figcaption>
+          <figcaption>Buzz Aldrin</figcaption>
         </figure>
         <figure className="Wording">
           <label htmlFor="space5">
             <input type="checkbox" />
           </label>
-          <figcaption>Space 5</figcaption>
+          <figcaption>Stellar Spirit</figcaption>
         </figure>
       </div>
       <div className="ViewPrice">
