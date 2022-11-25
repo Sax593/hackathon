@@ -1,5 +1,6 @@
 import "./reset.css";
 import "./App.css";
+import FlightBooking from "@pages/FlightBooking/FlightBooking";
 import NewsPage from "@pages/NewsPage/NewsPage";
 import SpaceWeather from "@pages/SpaceWeather/SpaceWeather";
 import OtherStarmap from "@pages/OtherStarmap/OtherStarmap";
@@ -20,7 +21,7 @@ function App() {
           <Route path="/starmap/othersystem" element={<OtherStarmap />} />
           <Route path="/spaceWeather" element={<SpaceWeather />} />
           <Route path="/news" element={<NewsPage />} />
-          <Route path="/flightbook" element={<Home />} />
+          <Route path="/flightbook" element={<FlightBooking />} />
         </Routes>
       </Router>
     </div>
