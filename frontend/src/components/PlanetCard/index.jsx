@@ -1,5 +1,4 @@
 import "./style.css";
-import blackhole from "@assets/blackhole1.jpg";
 import data from "@assets/raw.json";
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
@@ -17,7 +16,11 @@ export default function PlanetCard({ id }) {
       {planet && (
         <>
           <div className="ptitle">
-            <img className="imgplanet" src={blackhole} alt="Gargantua" />
+            <img
+              className="imgplanet"
+              src={`/src/assets/${planet.planet_poster}`}
+              alt={planet.planet_name}
+            />
             <div>
               <h1>{planet.planet_name}</h1>
               <br />
