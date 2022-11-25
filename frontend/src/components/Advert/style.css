@@ -1,0 +1,48 @@
+.advert {
+  background-color: aliceblue;
+  width: 27vw;
+  height: 30vh;
+  font-family: "Orbitron", sans-serif;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #c2d2f2,
+    0 0 0.8rem #c2d2f2, 0 0 2.8rem #c2d2f2, inset 0 0 1.3rem #c2d2f2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  top: 200px;
+  left: 1300px;
+}
+
+.AdvertTitleTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #253769;
+  height: 5vh;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #c2d2f2;
+  width: 27vw;
+  border-radius: 10px 10px 0 0;
+}
+
+.AdvertTitleBottom {
+  background-color: #253769;
+  height: 5vh;
+  width: 27vw;
+  position: relative;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c2d2f2;
+  text-transform: uppercase;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+img {
+  width: 27vw;
+  height: 20vh;
+}
