@@ -36,7 +36,7 @@
   margin: 0.5rem;
 }
 
-figure {
+.Wording {
   display: inline-block;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -46,12 +46,12 @@ figcaption {
   text-transform: uppercase;
   color: whitesmoke;
   font-size: 1.5rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   height: 2.5rem;
   font-weight: bold;
 }
 
-figure:hover figcaption {
+.Wording:hover figcaption {
   color: #ff0000;
   background-color: #04070d;
   border-radius: 10px;
@@ -211,7 +211,7 @@ label[for="datereturn"] {
 
 .ListDestination,
 .ListMeans {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .ListMeans {

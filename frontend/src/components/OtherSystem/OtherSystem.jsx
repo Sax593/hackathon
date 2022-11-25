@@ -1,4 +1,4 @@
-import PlanetCard from "@components/PlanetCard/PlanetCard";
+import PlanetCard from "@components/PlanetCard/index";
 import { useState } from "react";
 import { Canvas, Arc } from "react-canva";
 import Modal from "react-modal";
@@ -6,6 +6,7 @@ import "./style.css";
 
 export default function OtherSystem() {
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [id, setId] = useState(0);
 
   const openModal = () => {
     setIsOpen(true);
@@ -14,16 +15,27 @@ export default function OtherSystem() {
   const closeModal = () => {
     setIsOpen(false);
   };
+  const customStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      background: "none",
+    },
+  };
 
   return (
     <>
-      <Modal isOpen={modalIsOpen}>
+      <Modal isOpen={modalIsOpen} id={id} style={customStyles}>
         <button type="button" onClick={closeModal}>
           X
         </button>
-        <PlanetCard />
+        <PlanetCard id={id} />
       </Modal>
-      <Canvas>
+      <Canvas className="other">
         <Arc
           x={500}
           y={300}
@@ -32,7 +44,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="yellow"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(8);
+            openModal();
+          }}
         />
         <Arc
           x={400}
@@ -42,7 +57,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="grey"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(2);
+            openModal();
+          }}
         />
         <Arc
           x={500}
@@ -52,7 +70,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="orange"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(7);
+            openModal();
+          }}
         />
         <Arc
           x={690}
@@ -62,7 +83,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="blue"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(20);
+            openModal();
+          }}
         />
         <Arc
           x={705}
@@ -72,7 +96,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="red"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(6);
+            openModal();
+          }}
         />
         <Arc
           x={400}
@@ -82,7 +109,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="#dfb740"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(5);
+            openModal();
+          }}
         />
         <Arc
           x={780}
@@ -92,7 +122,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="#d4b457"
           fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(3);
+            openModal();
+          }}
         />
         <Arc
           x={90}
@@ -102,17 +135,10 @@ export default function OtherSystem() {
           endAngle={180}
           stroke="#23edd5"
           fill=""
-          onClick={openModal}
-        />
-        <Arc
-          x={110}
-          y={50}
-          radius={10}
-          startAngle={0}
-          endAngle={180}
-          stroke="#0066cc"
-          fill=""
-          onClick={openModal}
+          onClick={() => {
+            setId(4);
+            openModal();
+          }}
         />
       </Canvas>
     </>

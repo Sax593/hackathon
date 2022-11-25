@@ -1,4 +1,4 @@
-import PlanetCard from "@components/PlanetCard/PlanetCard";
+import PlanetCard from "@components/PlanetCard/index";
 import { useState } from "react";
 import { Canvas, Arc } from "react-canva";
 import Modal from "react-modal";
@@ -6,6 +6,7 @@ import "./style.css";
 
 export default function StantonSystem() {
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [id, setId] = useState(0);
 
   const openModal = () => {
     setIsOpen(true);
@@ -14,14 +15,24 @@ export default function StantonSystem() {
   const closeModal = () => {
     setIsOpen(false);
   };
-
+  const customStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      background: "none",
+    },
+  };
   return (
     <>
-      <Modal isOpen={modalIsOpen}>
+      <Modal isOpen={modalIsOpen} id={id} style={customStyles}>
         <button type="button" onClick={closeModal}>
           X
         </button>
-        <PlanetCard />
+        <PlanetCard id={id} />
       </Modal>
       <Canvas>
         <Arc
@@ -32,7 +43,10 @@ export default function StantonSystem() {
           endAngle={180}
           stroke="yellow"
           fill="yellow"
-          onClick={openModal}
+          onClick={() => {
+            setId(20);
+            openModal();
+          }}
         />
         <Arc
           x={400}
@@ -42,7 +56,10 @@ export default function StantonSystem() {
           endAngle={180}
           stroke="blue"
           fill="blue"
-          onClick={openModal}
+          onClick={() => {
+            setId(16);
+            openModal();
+          }}
         />
         <Arc
           x={500}
@@ -52,7 +69,10 @@ export default function StantonSystem() {
           endAngle={180}
           stroke="Yellow"
           fill="Yellow"
-          onClick={openModal}
+          onClick={() => {
+            setId(17);
+            openModal();
+          }}
         />
         <Arc
           x={400}
@@ -62,7 +82,10 @@ export default function StantonSystem() {
           endAngle={180}
           stroke="#73b0ee"
           fill="#73b0ee"
-          onClick={openModal}
+          onClick={() => {
+            setId(18);
+            openModal();
+          }}
         />
         <Arc
           x={975}
@@ -72,7 +95,10 @@ export default function StantonSystem() {
           endAngle={180}
           stroke="#fefefe"
           fill="#fefefe"
-          onClick={openModal}
+          onClick={() => {
+            setId(19);
+            openModal();
+          }}
         />
         <Arc
           x={500}

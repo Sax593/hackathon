@@ -3,6 +3,8 @@ import DisplayHome from "@components/DisplayHome/DisplayHome";
 import Departure from "@components/departure";
 import Footer from "@components/Footer";
 import RedAlert from "@components/Redalert";
+import Advert from "@components/Advert/Advert";
+import Booking from "@components/Booking/Booking";
 import "./style.css";
 
 export default function Home() {
@@ -16,8 +18,9 @@ export default function Home() {
         <div className="main">
           <RedAlert />
           <Departure />
+          <Advert />
+          <Booking />
         </div>
-
         <Footer />
       </div>
     </div>
