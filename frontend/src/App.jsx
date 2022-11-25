@@ -3,6 +3,7 @@ import "./services/reset.css";
 import "./App.css";
 
 import Home from "./pages/Home/Home";
+import NewsPage from "./pages/NewsPage/NewsPage";
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
         <div className="app">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/news" element={a} />
-            <Route path="/starMap" element={a} />
-            <Route path="/bookAFlight" element={a} />
-            <Route path="/spaceWeather" element={a} /> */}
+            <Route path="/news" element={<NewsPage />} />
+            {/* <Route path="/starMap" element={a} /> */}
+            {/* <Route path="/bookAFlight" element={a} /> */}
+            {/* <Route path="/spaceWeather" element={a} /> */}
           </Routes>
         </div>
       </Router>
