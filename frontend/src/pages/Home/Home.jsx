@@ -1,3 +1,4 @@
+import Booking from "@components/Booking/Booking";
 import Departure from "@components/departure";
 import Footer from "@components/Footer";
 import Header from "@components/Header/Header";
@@ -11,6 +12,7 @@ export default function Home() {
         <RedAlert />
         <Departure />
       </div>
+      <Booking />
       <Footer />
     </div>
   );
