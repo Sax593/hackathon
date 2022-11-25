@@ -3,22 +3,15 @@
   aspect-ratio: 1;
 }
 
-.audioPlayer {
-  opacity: 0.02;
-  position: absolute;
-  height: 10em;
-  width: 10%;
-  top: 500px;
 
-}
 
-.center {
+/* .center {
   position: absolute;
   height: 60vh;
   top: calc(var(--heightPage) - 95%);
   right: 20%;
   text-align: center;
-}
+} */
 
 .logoTitle,
 .catchphrase {
@@ -107,8 +100,8 @@
 
 .center {
   position: absolute;
-  height: 60vh;
-  top: calc(var(--heightPage) - 95%);
+  /* height: 60vh; */
+  /* top: calc(var(--heightPage) - 95%); */
   right: 20%;
   text-align: center;
 }
