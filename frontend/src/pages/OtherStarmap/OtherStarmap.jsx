@@ -1,15 +1,15 @@
 import Footer from "@components/Footer";
 import Header from "@components/Header/Header";
-import SolarOverlay from "@components/SolarOverlay/SolarOverlay";
+import OtherOverlay from "@components/OtherOverlay/OtherOverlay";
 import RedAlert from "@components/Redalert";
 import "./style.css";
 
-export default function SolarStarmap() {
+export default function OtherStarmap() {
   return (
     <>
       <Header />
       <RedAlert />
-      <SolarOverlay className="main" />
+      <OtherOverlay className="main" />
       <Footer />
     </>
   );

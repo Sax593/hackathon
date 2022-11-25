@@ -4,7 +4,7 @@ import { Canvas, Arc } from "react-canva";
 import Modal from "react-modal";
 import "./style.css";
 
-export default function StantonSystem() {
+export default function OtherSystem() {
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
@@ -27,11 +27,11 @@ export default function StantonSystem() {
         <Arc
           x={500}
           y={300}
-          radius={50}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="yellow"
-          fill="yellow"
+          fill=""
           onClick={openModal}
         />
         <Arc
@@ -40,95 +40,79 @@ export default function StantonSystem() {
           radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="blue"
-          fill="blue"
+          stroke="grey"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={500}
           y={450}
-          radius={15}
+          radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="Yellow"
-          fill="Yellow"
+          stroke="orange"
+          fill=""
+          onClick={openModal}
+        />
+        <Arc
+          x={690}
+          y={300}
+          radius={10}
+          startAngle={0}
+          endAngle={180}
+          stroke="blue"
+          fill=""
+          onClick={openModal}
+        />
+        <Arc
+          x={705}
+          y={200}
+          radius={10}
+          startAngle={0}
+          endAngle={180}
+          stroke="red"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={400}
           y={50}
-          radius={28}
+          radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="#73b0ee"
-          fill="#73b0ee"
+          stroke="#dfb740"
+          fill=""
           onClick={openModal}
         />
         <Arc
-          x={975}
-          y={425}
-          radius={22}
+          x={780}
+          y={95}
+          radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="#fefefe"
-          fill="#fefefe"
+          stroke="#d4b457"
+          fill=""
           onClick={openModal}
         />
         <Arc
-          x={500}
-          y={300}
-          radius={100}
+          x={90}
+          y={395}
+          radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
+          stroke="#23edd5"
+          fill=""
+          onClick={openModal}
         />
         <Arc
-          x={500}
-          y={300}
-          radius={150}
+          x={110}
+          y={50}
+          radius={10}
           startAngle={0}
           endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={270}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={490}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
+          stroke="#0066cc"
+          fill=""
+          onClick={openModal}
         />
       </Canvas>
     </>
