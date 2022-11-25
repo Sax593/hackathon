@@ -5,7 +5,7 @@
     "planet_title": "Red Planet",
     "planet_desc": "The red planet will offer you an unique experience where the thirst will became your better friends ",
     "planet_poster": "mars.png",
-    "planet_departure": "2954-11-27"
+    "planet_departure": "2954-11-27 #12:68"
   },
   {
     "planet_name": "Sun",
@@ -13,7 +13,7 @@
     "planet_title": "Sun",
     "planet_desc": "You can fly over but you approching axcept for a mechoui",
     "planet_poster": "sun.jpg",
-    "planet_departure": "2954-12-08"
+    "planet_departure": "2954-12-08 #67:18"
   },
   {
     "planet_name": "Mercure",
@@ -21,7 +21,7 @@
     "planet_title": "",
     "planet_desc": "It's not a rectal thermometer producting planet",
     "planet_poster": "mercury.jpg",
-    "planet_departure": "2955-01-01"
+    "planet_departure": "2955-01-01 #34:09"
   },
   {
     "planet_name": "Venus",
@@ -29,7 +29,7 @@
     "planet_title": "",
     "planet_desc": "Uninteresting",
     "planet_poster": "venus.jpg",
-    "planet_departure": "2955-01-23"
+    "planet_departure": "2955-01-23 #15:87"
   },
   {
     "planet_name": "Earth",
@@ -37,7 +37,7 @@
     "planet_title": "Blue planet",
     "planet_desc": "The cradle of Humanity",
     "planet_poster": "earth.jpg",
-    "planet_departure": "2955-02-16"
+    "planet_departure": "2955-02-16 #76:15"
   },
   {
     "planet_name": "Jupiter",
@@ -45,7 +45,7 @@
     "planet_title": "Industrial planet",
     "planet_desc": "Place to be for trade and raw material exchange",
     "planet_poster": "jupiter.png",
-    "planet_departure": "2955-02-20"
+    "planet_departure": "2955-02-20 #76:98 "
   },
   {
     "planet_name": "Saturn",
