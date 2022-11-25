@@ -14,8 +14,6 @@ function App() {
         <div className="app">
           <Routes>
             <Route path="/" element={<Home />} />
-
-            <Route path="/starmap" element={<Starmap />} />
             <Route path="/starmap" element={<SolarStarmap />} />
             <Route path="/starmap/solarsystem" element={<SolarStarmap />} />
             <Route path="/starmap/stantonsystem" element={<StantonStarmap />} />
@@ -23,7 +21,6 @@ function App() {
             {/* <Route path="/news" element={a} />
             <Route path="/bookAFlight" element={a} /> 
             <Route path="/bookAFlight" element={a} /> */}
-       
           </Routes>
         </div>
       </Router>
