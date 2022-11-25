@@ -20,8 +20,8 @@
     "husky": "^7.0.0"
   },
   "dependencies": {
-    "react-router-dom": "^6.4.3",
-    "react-canva": "^0.0.5"
+    "react-canva": "^0.0.5",
+    "react-h5-audio-player": "^3.8.6",
+    "react-router-dom": "^6.4.3"
   }
-
 }

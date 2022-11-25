@@ -21,6 +21,13 @@ export default function Home() {
           <Advert />
           <Booking />
         </div>
+        <div className="ShootingStar">
+          <section className="SectionShootingStar">
+            <span className="SpanShootingStar" />
+            <span className="SpanShootingStar" />
+            <span className="SpanShootingStar" />
+          </section>
+        </div>
         <Footer />
       </div>
     </div>
