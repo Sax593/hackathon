@@ -27,11 +27,11 @@ export default function OtherSystem() {
         <Arc
           x={500}
           y={300}
-          radius={50}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="yellow"
-          fill="yellow"
+          fill=""
           onClick={openModal}
         />
         <Arc
@@ -41,208 +41,78 @@ export default function OtherSystem() {
           startAngle={0}
           endAngle={180}
           stroke="grey"
-          fill="grey"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={500}
           y={450}
-          radius={15}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="orange"
-          fill="orange"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={690}
           y={300}
-          radius={15}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="blue"
-          fill="blue"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={705}
           y={200}
-          radius={17}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="red"
-          fill="red"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={400}
           y={50}
-          radius={28}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="#dfb740"
-          fill="#dfb740"
+          fill=""
           onClick={openModal}
         />
         <Arc
           x={780}
           y={95}
-          radius={25}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="#d4b457"
-          fill="#d4b457"
+          fill=""
           onClick={openModal}
-        />
-        <Arc
-          x={780}
-          y={95}
-          radius={30}
-          startAngle={0}
-          endAngle={180}
-          stroke="#babec2"
-          fill="transparent"
         />
         <Arc
           x={90}
           y={395}
-          radius={22}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="#23edd5"
-          fill="#23edd5"
+          fill=""
           onClick={openModal}
         />
         <Arc
-          x={90}
-          y={395}
-          radius={30}
-          startAngle={0}
-          endAngle={180}
-          stroke="#babec2"
-          fill="transparent"
-        />
-        <Arc
-          x={975}
-          y={425}
-          radius={22}
+          x={110}
+          y={50}
+          radius={10}
           startAngle={0}
           endAngle={180}
           stroke="#0066cc"
-          fill="#0066cc"
+          fill=""
           onClick={openModal}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={100}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={150}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={190}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={230}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={270}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={350}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={420}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
-        />
-        <Arc
-          x={500}
-          y={300}
-          radius={490}
-          startAngle={0}
-          endAngle={180}
-          stroke="white"
-          fill="transparent"
-          lineCap="button"
-          lineDashOffset={0.0}
-          lineJoin="miter"
-          lineWidth={1.0}
-          miterLimit={10.0}
         />
       </Canvas>
     </>
