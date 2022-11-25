@@ -4,139 +4,179 @@
     "planet_id": 1,
     "planet_title": "Red Planet",
     "planet_desc": "The red planet will offer you an unique experience where the thirst will became your better friends ",
-    "planet_poster": "mars.png"
+    "planet_poster": "mars.png",
+    "planet_departure": "2954-11-27",
+    "planet_hours": " #12:68"
   },
   {
     "planet_name": "Sun",
     "planet_id": 8,
     "planet_title": "Sun",
     "planet_desc": "You can fly over but you approching axcept for a mechoui",
-    "planet_poster": "sun.jpg"
+    "planet_poster": "sun.jpg",
+    "planet_departure": "2954-12-08 ",
+    "planet_hours": "#67:18"
   },
   {
     "planet_name": "Mercure",
     "planet_id": 9,
     "planet_title": "",
     "planet_desc": "It's not a rectal thermometer producting planet",
-    "planet_poster": "mercury.jpg"
+    "planet_poster": "mercury.jpg",
+    "planet_departure": "2955-01-01",
+    "planet_hours": " #34:09"
   },
   {
     "planet_name": "Venus",
     "planet_id": 10,
     "planet_title": "",
     "planet_desc": "Uninteresting",
-    "planet_poster": "venus.jpg"
+    "planet_poster": "venus.jpg",
+    "planet_departure": "2955-01-23",
+    "planet_hours": " #15:87"
   },
   {
     "planet_name": "Earth",
     "planet_id": 11,
     "planet_title": "Blue planet",
     "planet_desc": "The cradle of Humanity",
-    "planet_poster": "earth.jpg"
+    "planet_poster": "earth.jpg",
+    "planet_departure": "2955-02-16",
+    "planet_hours": " #76:15"
   },
   {
     "planet_name": "Jupiter",
     "planet_id": 12,
     "planet_title": "Industrial planet",
     "planet_desc": "Place to be for trade and raw material exchange",
-    "planet_poster": "jupiter.png"
+    "planet_poster": "jupiter.png",
+    "planet_departure": "2955-02-20",
+    "planet_hours": " #76:98 "
   },
   {
     "planet_name": "Saturn",
     "planet_id": 13,
     "planet_title": "Gas Giant",
     "planet_desc": "Place to be for gas exchange",
-    "planet_poster": "saturn.jpg"
+    "planet_poster": "saturn.jpg",
+    "planet_departure": "2955-03-11 ",
+    "planet_hours": "#00:00"
   },
   {
     "planet_name": "Uranus",
     "planet_id": 14,
     "planet_title": "Ininteresting planet",
     "planet_desc": "",
-    "planet_poster": "uranus.jpg"
+    "planet_poster": "uranus.jpg",
+    "planet_departure": "2955-05-11 ",
+    "planet_hours": "#00:30"
   },
   {
     "planet_name": "Neptun",
     "planet_id": 15,
     "planet_title": "floating city planet",
     "planet_desc": "Visit the wonderful floating city of Neptun for the week with your wife",
-    "planet_poster": "neptune.png"
+    "planet_poster": "neptune.png",
+    "planet_departure": "2955-06-04 ",
+    "planet_hours": "#01:00"
   },
   {
     "planet_name": "Coruscant",
     "planet_id": 2,
     "planet_title": "Capital Planet",
     "planet_desc": "Visit the city planet.Please take looking to stay here a lots of days to discover some specialities",
-    "planet_poster": "coruscant.png"
+    "planet_poster": "coruscant.png",
+    "planet_departure": "2955-08-10 ",
+    "planet_hours": "#02:00"
   },
   {
     "planet_name": "Krypton",
     "planet_id": 3,
     "planet_title": "Superman Homeland",
     "planet_desc": "Currently exploding planet",
-    "planet_poster": "krypton.jpg"
+    "planet_poster": "krypton.jpg",
+    "planet_departure": "2955-08-21 ",
+    "planet_hours": "#04:00"
   },
   {
     "planet_name": "Death Star",
     "planet_id": 4,
     "planet_title": "It's not a Moon",
     "planet_desc": "Visit the most famous weapon of sith Lord and become a stormtrooper for a day with our special experience Stormtroopday!",
-    "planet_poster": "deathstar.jpg"
+    "planet_poster": "deathstar.jpg",
+    "planet_departure": "2954-06-12 ",
+    "planet_hours": "#04:30"
   },
   {
     "planet_name": "Orion",
     "planet_id": 5,
     "planet_title": "Metallica Planet",
     "planet_desc": "Arquilian galaxy.Agent Jay accidently discover this galaxy on the collar of a cat.Since Spaceverse offer a chance to visit.Be sure to tall less than 6 inches ",
-    "planet_poster": "orion.jpg"
+    "planet_poster": "orion.jpg",
+    "planet_departure": "2955-08-24 ",
+    "planet_hours": "#05:00"
   },
   {
     "planet_name": "Cybertron",
     "planet_id": 6,
     "planet_title": "Homeland of Autobots",
     "planet_desc": "Metal planet ,where the war was friendly.Visit the two capital : Iacon and Kaon. Let you grab by the Rust sea!  ",
-    "planet_poster": "cybertron.png"
+    "planet_poster": "cybertron.png",
+    "planet_departure": "2955-09-20 ",
+    "planet_hours": "#09:00"
   },
   {
     "planet_name": "Gargantua",
     "planet_id": 7,
     "planet_title": "Black Hole",
     "planet_desc": "ùpfiàl kpoe$&k$x;p$",
-    "planet_poster": "blackhole.jpg"
+    "planet_poster": "blackhole.jpg",
+    "planet_departure": "????????????",
+    "planet_hours": "LadyBugs"
   },
   {
     "planet_name": "Hurston",
     "planet_id": 16,
     "planet_title": "Industrial planet",
     "planet_desc": "Place to be for trade and raw material exchange",
-    "planet_poster": "hurston.webp"
+    "planet_poster": "hurston.webp",
+    "planet_departure": "2955-09-30 ",
+    "planet_hours": "#09:30"
   },
   {
     "planet_name": "Crusader",
     "planet_id": 17,
     "planet_title": "Industrial planet",
     "planet_desc": "Place to be for trade and raw material exchange",
-    "planet_poster": "cusader.webp"
+    "planet_poster": "cusader.webp",
+    "planet_departure": "2955-10-09 ",
+    "planet_hours": "#10:00"
   },
   {
     "planet_name": "ArcCorp",
     "planet_id": 18,
     "planet_title": "Industrial planet",
     "planet_desc": "Place to be for trade and raw material exchange",
-    "planet_poster": "accorp.jpg"
+    "planet_poster": "accorp.jpg",
+    "planet_departure": "2955-10-27 ",
+    "planet_hours": "#12:00"
   },
   {
     "planet_name": "Microtch",
     "planet_id": 19,
     "planet_title": "Industrial planet",
     "planet_desc": "Place to be for trade and raw material exchange",
-    "planet_poster": "microtech.webp"
+    "planet_poster": "microtech.webp",
+    "planet_departure": "2955-12-01 ",
+    "planet_hours": "#12:30"
   },
   {
     "planet_name": "Stanton",
     "planet_id": 20,
     "planet_title": "Stanton Star",
     "planet_desc": "The best system on the multiverse",
-    "planet_poster": ""
+    "planet_poster": "",
+    "planet_departure": " 2022-11-25",
+    "planet_hours": "#19:30"
   }
 ]
